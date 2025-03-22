@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBot.Api", "src\BuildBot.Api\BuildBot.Api.csproj", "{9F7405DB-2995-496D-89B7-24442080D8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBot.Models", "src\BuildBot.Models\BuildBot.Models.csproj", "{4A255837-BBBA-450E-9F1F-DE273CAEE693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBot.Services", "src\BuildBot.Services\BuildBot.Services.csproj", "{B8644BB6-DE1F-44F0-9E9C-A9163FEADCD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBot.Abstractions", "src\BuildBot.Abstractions\BuildBot.Abstractions.csproj", "{A4DF6E3C-1EC3-45BC-99F9-BECB1ED8B0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBot.Repositories", "src\BuildBot.Repositories\BuildBot.Repositories.csproj", "{59E6242A-3E05-44D1-AA06-8E714406A4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBot.Builds", "src\BuildBot.Builds\BuildBot.Builds.csproj", "{74609E12-B1AC-4D65-A5BF-E53D9EF9B47C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F7405DB-2995-496D-89B7-24442080D8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7405DB-2995-496D-89B7-24442080D8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7405DB-2995-496D-89B7-24442080D8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7405DB-2995-496D-89B7-24442080D8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A255837-BBBA-450E-9F1F-DE273CAEE693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A255837-BBBA-450E-9F1F-DE273CAEE693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A255837-BBBA-450E-9F1F-DE273CAEE693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A255837-BBBA-450E-9F1F-DE273CAEE693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8644BB6-DE1F-44F0-9E9C-A9163FEADCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8644BB6-DE1F-44F0-9E9C-A9163FEADCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8644BB6-DE1F-44F0-9E9C-A9163FEADCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8644BB6-DE1F-44F0-9E9C-A9163FEADCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DF6E3C-1EC3-45BC-99F9-BECB1ED8B0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DF6E3C-1EC3-45BC-99F9-BECB1ED8B0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DF6E3C-1EC3-45BC-99F9-BECB1ED8B0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DF6E3C-1EC3-45BC-99F9-BECB1ED8B0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E6242A-3E05-44D1-AA06-8E714406A4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E6242A-3E05-44D1-AA06-8E714406A4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E6242A-3E05-44D1-AA06-8E714406A4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E6242A-3E05-44D1-AA06-8E714406A4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74609E12-B1AC-4D65-A5BF-E53D9EF9B47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74609E12-B1AC-4D65-A5BF-E53D9EF9B47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74609E12-B1AC-4D65-A5BF-E53D9EF9B47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74609E12-B1AC-4D65-A5BF-E53D9EF9B47C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F7405DB-2995-496D-89B7-24442080D8FB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4A255837-BBBA-450E-9F1F-DE273CAEE693} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B8644BB6-DE1F-44F0-9E9C-A9163FEADCD1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A4DF6E3C-1EC3-45BC-99F9-BECB1ED8B0B7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{59E6242A-3E05-44D1-AA06-8E714406A4F5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{74609E12-B1AC-4D65-A5BF-E53D9EF9B47C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+EndGlobal
